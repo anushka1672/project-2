@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task1</title>
+    <style>
+        .p1{
+            height: 100vh;
+            
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .container{
+            background-color: brown;
+            width: 500px;
+            height: 50px;
+        }
+        .parent{
+            display: flex;
+       
+
+        }
+        .parent div{
+            background-color: antiquewhite;
+            margin: 3px;
+            flex-grow: 1;
+            /* text-align: center; */
+        }
+
+        .c1{
+            background-color: antiquewhite;
+            text-align: center;
+            margin: 5px;
+        }
+       
+
+    </style>
+</head>
+<body>
+    <div class="p1">
+
+        <div class="container">
+            <div class="parent">
+                <div class="c1">a</div>
+                <div class="c1">b</div>
+                <div class="c1">c</div>
+            </div>
+            <div class="c1" id="i1">d</div>
+        </div>
+    </div>
+</body>
+</html>
